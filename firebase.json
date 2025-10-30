@@ -1,39 +1,39 @@
 {
-    "flutter": {
-        "platforms": {
-            "android": {
-                "default": {
-                    "projectId": "docsreminder",
-                    "appId": "1:993254387807:android:ae7184ea88f1e1b75b6bea",
-                    "fileOutput": "android/app/google-services.json"
-                }
-            },
-            "dart": {
-                "lib/firebase_options.dart": {
-                    "projectId": "docsreminder",
-                    "configurations": {
-                        "android": "1:993254387807:android:ae7184ea88f1e1b75b6bea",
-                        "ios": "1:993254387807:ios:513276bdeea6dc705b6bea",
-                        "macos": "1:993254387807:ios:513276bdeea6dc705b6bea",
-                        "web": "1:993254387807:web:87003ee97ac653745b6bea",
-                        "windows": "1:993254387807:web:1459c201dbf6b5cc5b6bea"
-                    }
-                }
-            }
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "docsreminder",
+          "appId": "1:993254387807:android:ae7184ea88f1e1b75b6bea",
+          "fileOutput": "android/app/google-services.json"
         }
-    },
-    "hosting": {
-        "public": "build/web",
-        "ignore": [
-            "firebase.json",
-            "**/.*",
-            "**/node_modules/**"
-        ],
-        "rewrites": [
-            {
-                "source": "**",
-                "destination": "/index.html"
-            }
-        ]
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "docsreminder",
+          "configurations": {
+            "android": "1:993254387807:android:ae7184ea88f1e1b75b6bea",
+            "ios": "1:993254387807:ios:513276bdeea6dc705b6bea",
+            "macos": "1:993254387807:ios:513276bdeea6dc705b6bea",
+            "web": "1:993254387807:web:87003ee97ac653745b6bea",
+            "windows": "1:993254387807:web:1459c201dbf6b5cc5b6bea"
+          }
+        }
+      }
     }
+  },
+  "hosting": {
+    "public": "y",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
 }
