@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "993254387807",
+    "project_id": "docsreminder",
+    "storage_bucket": "docsreminder.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993254387807:android:ae7184ea88f1e1b75b6bea",
+        "android_client_info": {
+          "package_name": "com.example.my_flutter_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe6flL3_N8bixvtRlq8wcxUS1-ua-PlO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
